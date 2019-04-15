@@ -1,0 +1,17 @@
+body{
+    background-image: url(ice.png);
+    background-repeat: no-repeat;
+    border: 10px double yellow;
+    padding: 25px;
+    /* background-size: 500px 500px; */
+    background-position: center;
+    padding: 10px;
+    
+}
+img{
+    /* border-radius: 50%; */
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+}

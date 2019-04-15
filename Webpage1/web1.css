@@ -1,0 +1,75 @@
+body{
+margin: 0px;
+
+background: rgb(250, 245, 215);
+}
+
+
+p{
+    color: slategrey;
+    font-size: 30px;
+    font-family: 'Handlee', cursive;
+  
+}
+
+.header{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+    background-color:rgb(236, 210, 215);
+    color: rgb(255, 255, 225);
+    /* border: dashed 2px rgb(190, 108, 190); */
+    border-width: 20px;
+    /* border-color: fuchsia; */
+    border-color: pink;
+    border-style: outset;
+    height: 100px;
+    /* width: 500px; */
+}
+.box1{
+    background-color: rgb(236, 210, 215);
+    width: 400px;
+    border: 15px outset pink;
+    padding: 15px;
+    margin: 25px;
+
+}
+
+.box2{
+    background-color: rgb(236, 210, 215);
+    width: 300px;
+    border: 15px outset pink;
+    padding: 15px;
+    margin: 5px;
+}
+ul{
+    background-color: rgba(255, 192, 203, 0.664);
+    
+    list-style: none;
+    width: 50%;
+    /* border: 25px; */
+    margin:25px;
+    padding:0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    border-right:5px dotted rgb(250, 82, 110); 
+}
+li a{
+    display: block;
+    color: rgb(250, 82, 110);
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: 'Handlee', cursive;
+
+}
+li a:hover:not(.active){
+    background-color: rgb(255, 255, 211);
+   
+}
+active{
+    background-color:rgba(255, 255, 0, 0.808);
+}
