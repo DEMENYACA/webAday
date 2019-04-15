@@ -1,0 +1,17 @@
+body{
+    background-color: deeppink;
+   
+
+}
+h1{
+    color: mediumblue;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-size: 50px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+}
